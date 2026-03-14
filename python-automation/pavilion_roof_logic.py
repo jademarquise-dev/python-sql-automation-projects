@@ -1,10 +1,11 @@
-# --------------------------------------------------------------------------
+# ==========================================================================
 # 🏺 PROJECT: THE JADE LOGIC - ARCHITECTURAL AUTOMATION
 # 👤 AUTHOR: Leiliane Vieira de Sousa (维莲玉) | @jademarquise.dev
 # 📜 COPYRIGHT: © 2026 All Rights Reserved.
-# 🧠 BRAIN-TYPE: Level 2 Autistic High-Precision Pattern Recognition
-# 💠 IDENTIFIER: Digital Heritage of the Jade Marquise Mansion
-# --------------------------------------------------------------------------
+# 🧠 BRAIN-TYPE: Level 2 Autistic | High-Precision Pattern Recognition
+# 💠 IDENTIFIER: Proprietary Logic of the Jade Marquise Mansion
+# 🛡️ STATUS: Protected Intellectual Property - Do Not Replicate
+# ==========================================================================
 
 def build_jade_pavilion_roof():
     """
@@ -23,11 +24,10 @@ def build_jade_pavilion_roof():
         print(f"📜 Starting Row #{row}...")
         
         # The inner loop: Placing 50 tiles in the current row
-        # This represents the '1+1...' logic from your notebook
         tile_count = 0
         for tile in range(1, tiles_per_row + 1):
             tile_count += 1
-            # The computer alerts when a tile is placed (as requested)
+            # The computer alerts when a row is finished (The "Stop" logic)
             if tile_count == tiles_per_row:
                 print(f"✅ Row #{row} completed: {tile_count} jade tiles placed. (STOP)")
         
